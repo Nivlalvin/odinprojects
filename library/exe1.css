@@ -1,0 +1,17 @@
+.hidden {
+    display: none;
+  }
+  #library-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .book-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+  }
+  .book-card button {
+    margin-top: 5px;
+  }
+  
