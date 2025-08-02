@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    background-color: gray;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color:peru;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 12px;
+    background: peru;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(196, 107, 18);
+}
+
+.hidden {display: none;}
+.error { color: red;}
+#today-forecast {
+    background: rgb(202, 200, 200);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.weekly-result {
+    max-width: 500px;
+    margin: 20px auto;
+    background: rgb(202, 200, 200);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#loading {
+    font-size: 20px;
+    color: peru;
+    margin-top: 10px;
+}
+
+.week-record {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-top: 1px dashed #ccc;
+    margin: 20px 0;
+}
